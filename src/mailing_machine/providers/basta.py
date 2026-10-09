@@ -44,7 +44,7 @@ def respond(messages, instructions, **kwargs):
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Api-Key {api_key}",
-        "User-Agent": "Name-of-the-Machine"
+        "User-Agent": "Mailing-Machine"
     }
 
     # Create the Request object

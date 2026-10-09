@@ -22,7 +22,7 @@ def respond(messages=None, instructions=None, tools=None, **kwargs):
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}",
-        "User-Agent": "Name-of-the-Machine"
+        "User-Agent": "Mailing-Machine"
     }
 
     instruction         = kwargs.get('system_instruction', instructions)
